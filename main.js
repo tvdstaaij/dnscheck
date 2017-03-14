@@ -2,8 +2,6 @@ var Promise = require ('bluebird');
 var Dns = require ('dns');
 var Config = require ('./config.json');
 
-let status = {};
-
 for (let i = 0; i < Config.domains.length; i++)
 {
 	let domain = Config.domains[i];
